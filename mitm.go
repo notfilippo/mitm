@@ -12,8 +12,8 @@ import (
 )
 
 var (
-	localAddr   = flag.String("l", "0.0.0.0:3000", "local address")
-	remoteAddr  = flag.String("r", "0.0.0.0:3000", "remote address")
+	localAddr   = flag.String("l", "0.0.0.0:3333", "local address")
+	remoteAddr  = flag.String("r", "0.0.0.0:2222", "remote address")
 	logFilePath = flag.String("log", "mitm.log", "output file path")
 )
 
